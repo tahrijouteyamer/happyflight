@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+        <link rel="icon" href="img/favicon.png"/>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sen:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+        <title>HappyFlight — Fly Easy, Explore Freely</title>
+    </head>
+    <body>
+        <div id="loading">
+            <img src="./img/happyflight.gif" alt="Loading">
+            <p>Loading your HappyFlight experience...</p>
+        </div>
+        <div id="content" style="display: none;"></div>
+        <header>
+            <a href="index.html" class="logo" data-aos="fade-right" data-aos-delay="2000" data-aos-offset="0">
+                <img src="./img/Logo.png" alt="logo"/>
+            </a>
+            <ul class="navlist" data-aos="fade-down" data-aos-delay="2500" data-aos-offset="0">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="mailto:contact@happyflight.com">Contact</a></li>
+            </ul>
+            <div class="h-right">
+                <div data-aos="fade-down" data-aos-delay="2500" data-aos-offset="0">
+                <a href="#booking" class="h-btn">
+                    Book Now
+                    <img src="img/Vector.png" alt="vector" />
+                </a>
+                </div>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+        <section class="home" id="home">
+            <div class="home-text" data-aos="fade-down" data-aos-delay="2000" data-aos-offset="0">
+                <h1>Explore the World with Us</h1>
+                <p>
+                    Discover destinations, book your travels, and get expert tips all in one place.
+                </p>
+                <div class="button">
+                    <a href="#destinations" class="btn">Explore</a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn2" target="_blank" rel="noopener noreferrer">
+                        <span>
+                            <i class="ri-play-mini-fill"></i>
+                        </span>Watch Video
+                    </a>
+                </div>
+            </div>
+            <div class="home-img" data-aos="fade-down" data-aos-delay="2000" data-aos-offset="0">
+                <img src="img/hero.png" alt="hero" />
+            </div>
+        </section>
+        <section class="categorie" data-aos="fade-up" data-aos-duration="1500">
+            <div class="categorie-content">
+                <div class="row">
+                    <img src="img/row1.png" alt="Tower" />
+                    <h4>Paris</h4>
+                </div>
+                <div class="row">
+                    <img src="img/row2.png" alt="Tower" />
+                    <h4>New York City</h4>
+                </div>
+                <div class="row">
+                    <img src="img/row3.png" alt="Tower" />
+                    <h4>Tokyo</h4>
+                </div>
+                <div class="row">
+                    <img src="img/row4.png" alt="Tower" />
+                    <h4>Sydney</h4>
+                </div>
+                <div class="row">
+                    <img src="img/row5.png" alt="Tower" />
+                    <h4>Cape Town</h4>
+                </div>
+            </div>
+            <div id="about"></div>
+        </section>
+        <section class="about" data-aos="fade-up">
+            <div class="about-img">
+                <img src="img/about.png" alt="about"/>
+            </div>
+            <div class="about-text">
+                <span>Our Story</span>
+                <h2>Travel Made Easy</h2>
+                <p>
+                    At HappyFlight, we simplify travel planning with personalized service and expert advice. Our team is dedicated to helping you find and book your ideal trip. Discover new destinations and enjoy a seamless travel experience with us.
+                </p>
+                <div class="about-box">
+                    <div class="box-in">
+                        <div class="main-box">
+                            <h5>100%</h5>
+                            <h6>Tailored Experiences</h6>
+                        </div>
+                    </div>
+                    <div class="box-in">
+                        <div class="main-box">
+                            <h5>4.9/5</h5>
+                            <h6>Customer Rating</h6>
+                        </div>
+                    </div>
+                    <div class="box-in">
+                        <div class="main-box">
+                            <h5>30+</h5>
+                            <h6>Local Experts</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="destinations"></div>
+        </section>
+        <section class="destinations">
+            <div class="center-text" data-aos="fade-up">
+                <h2>Destinations</h2>
+                <p>
+                    Discover a range of stunning destinations, each offering a unique experience to make your journey unforgettable
+                </p>
+            </div>
+            <div class="destinations-content">
+                <div class="box" data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/img1.png" alt="img1" />
+                    <h3>Escape to Santorini</h3>
+                    <h6>Discover the Beauty of the Greek Isles</h6>
+                    <div class="box-main">
+                        <div class="box-text">
+                            <h5>749$</h5>
+                        </div>
+                        <div class="box-btn">
+                            <a href="#" class="bxx-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="400">
+                    <img src="img/img2.png" alt="img1" />
+                    <h3>Maldives Dream Vacation</h3>
+                    <h6>Unwind in Luxury Overwater Villas</h6>
+                    <div class="box-main">
+                        <div class="box-text">
+                            <h5>899$</h5>
+                        </div>
+                        <div class="box-btn">
+                            <a href="#" class="bxx-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-aos="fade-up" data-aos-delay="600">
+                    <img src="img/img3.png" alt="img1" />
+                    <h3>Bali Adventure</h3>
+                    <h6>Tropical Paradise Awaits</h6>
+                    <div class="box-main">
+                        <div class="box-text">
+                            <h5>635$</h5>
+                        </div>
+                        <div class="box-btn">
+                            <a href="#" class="bxx-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="testimonials-container" id="testimonial" data-aos="fade-up">
+                <div class="testimonial">
+                    <div class="testimonial-img">
+                        <img src="img/tst.png" alt="testimonial" />
+                    </div>
+                    <div class="testimonial-text">
+                        <h2>A customer said about us:</h2>
+                        <div class="tst-in">
+                            <p class="testimonial-content">
+                                HappyFlight helped me a lot in finding the best place for our
+                                first outdoor adventure trip. They responded very
+                                quickly and gave me a detailed account of the place-its
+                                history, as well as its best features.
+                            </p>
+                            <div class="tst-star">
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                            </div>
+                            <div class="tst-main">
+                                <div class="tst-text">
+                                    <h4>Andrew Sarma</h4>
+                                    <h6>Entrepreneur</h6>
+                                </div>
+                                <div class="tst-icon tst-icon-1">
+                                    <i class="ri-arrow-right-double-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="testimonial testimonial2" data-aos="fade-up">
+                    <div class="testimonial-img">
+                        <img src="img/tst2.png" alt="testimonial2" />
+                    </div>
+                    <div class="testimonial-text">
+                        <h2>And Another:</h2>
+                        <div class="tst-in">
+                            <p class="testimonial2-content">
+                                Thanks to HappyFlight, we had an unforgettable family vacation in Bali. The team’s recommendations were spot on, and we felt well-prepared for every part of the trip.
+                            </p>
+                            <div class="tst-star">
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                                <a href="#"><i class="ri-star-fill"></i></a>
+                            </div>
+                            <div class="tst-main">
+                                <div class="tst-text">
+                                    <h4>Sophia Turner</h4>
+                                    <h6>Photographer</h6>
+                                </div>
+                                <div class="tst-icon tst-icon-2">
+                                    <i class="ri-arrow-right-double-line"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="booking"></div>
+            </section>            
+            <section class="cta" data-aos="fade-up">
+                <div class="cta-content">
+                    <p>READY TO EXPLORE THE WORLD?</p>
+                    <h3>Take Off on Your Dream Journey!</h3>
+                    <form action="book" data-aos="fade-down" data-aos-duration="1300" data-aos-delay="900">
+                        <div class="input-box">
+                            <i class="ri-calendar-line"></i>
+                            <input 
+                                type="date" 
+                                style="color: #6c757d;" 
+                                placeholder="Travel Date" 
+                                required 
+                                min="" 
+                                max=""
+                                onfocus="setMinMaxDates(this)" 
+                            />
+                        </div>
+                        <div class="input-box destinations">
+                            <i class="ri-flight-takeoff-fill"></i>
+                            <select placeholder="Destination" required>
+                                <option value="" disabled selected>Select Destination</option>
+                                <option value="paris">Paris</option>
+                                <option value="new_york">New York</option>
+                                <option value="tokyo">Tokyo</option>
+                                <option value="london">London</option>
+                                <option value="sydney">Sydney</option>
+                                <option value="rome">Rome</option>
+                                <option value="barcelona">Barcelona</option>
+                                <option value="dubai">Dubai</option>
+                                <option value="cairo">Chefchaouen</option>
+                                <option value="bangkok">Bangkok</option>
+                                <option value="amsterdam">Amsterdam</option>
+                                <option value="athens">Athens</option>
+                                <option value="madrid">Madrid</option>
+                                <option value="vienna">Vienna</option>
+                                <option value="lisbon">Lisbon</option>
+                                <option value="cairo">Cairo</option>
+                                <option value="istanbul">Istanbul</option>
+                                <option value="dubrovnik">Tangier</option>
+                                <option value="bali">Bali</option>
+                                <option value="maldives">Maldives</option>
+                                <option value="santorini">Santorini</option>
+                                <option value="cape_town">Cape Town</option>
+                                <option value="cape_town">Cologne</option>
+                            </select>                        
+                        </div>
+                        <div class="input-box">
+                            <i class="ri-user-fill"></i>
+                            <input id="peopleInput" type="number" placeholder="Number of Passengers" required />
+                        </div>
+                        <div class="input-box">
+                            <i class="ri-mail-line"></i>
+                            <input type="email" placeholder="Email Address" required />
+                        </div>
+                        <a href="#" class="book-btn">Get Best Offers</a>
+                    </form>
+                    <div class="cta-plane" data-aos="fade-left" data-aos-duration="1800" data-aos-offset="0"></div>
+                </div>
+            </section>                     
+        <section class="contact" id="contact">
+            <div class="footer-box">
+                <a class="footer-logo">
+                    <img src="img/Logo.png" alt="logo" />
+                </a>
+                <p>Enjoy the touring <br />with HappyFlight</p>
+                <div class="social-link">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Resources</h3>
+                <a href="#">Travel Insurance</a>
+                <a href="#">Travel Tips</a>
+                <a href="#">Customer Support</a>
+            </div>
+            <div class="footer-box">
+                <h3>Travellers</h3>
+                <a href="#">Why Travel with Us</a>
+                <a href="#">Guide Book</a>
+                <a href="#">App Directory</a>
+            </div>
+            <div class="footer-box">
+                <h3>Company</h3>
+                <a href="#">Help Center</a>
+                <a href="#">Travel Blog</a>
+            </div>
+            <div class="footer-box">
+                <h3>Get App</h3>
+                <a href="#">App Store</a>
+                <a href="#">Help Center</a>
+            </div>
+        </section>
+        <div class="end-content">
+            <div class="end-text">
+                <p>&copy Copyright Amer Tahri Joutey 2023</p>
+            </div>
+            <div class="end-icon">
+                <a href="https://github.com/tahrijouteyamer" target="_blank">
+                    Go To
+                    <i class="ri-github-fill"></i>
+                </a>
+            </div>
+        </div>
+        <script src="aos.js"></script>
+        <script>
+            AOS.init({
+            duration: 1000,
+            });
+          </script>          
+    </body>
+</html>
