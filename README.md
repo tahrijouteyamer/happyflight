@@ -29,7 +29,7 @@ To use **HappyFlight**, simply download or clone the repository and open the `in
 
 2. Navigate to the project folder and open the `index.html` file in your browser.
 
-That's all you need to get started!
+That's all you need to get started! Note that the full code will be added in the future.
 
 ## Usage
 
