@@ -14,4 +14,15 @@ window.addEventListener("scroll", () => {
     header.classList.toggle("sticky", window.scrollY > 60);
 });
 
+const menu = document.querySelector("#menu-icon");
+const navlist = document.querySelector(".navlist");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+});
+
+
+
+
 // Rest of the code will be added later
