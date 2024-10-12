@@ -371,3 +371,55 @@ p {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 5%;
+    }
+    .navlist a {
+        font-size: 1.5rem;
+    }
+    .h-btn {
+        padding: 0.6rem 1.2rem;
+    }
+    .cta-plane {
+        width: 400px;
+        right: -100px;
+    }
+    .cta-content {
+        width: 80rem;
+        margin-left: 4rem;
+    }
+    .cta-content h3 {
+        position: absolute;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        margin-bottom: 35rem;
+        margin-left: 150px;
+        box-shadow: none;
+        white-space: nowrap;
+    }
+    .cta-content p {
+        position: absolute;
+        margin-top: -40rem;
+        margin-left: 0rem;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 0.6rem 1.2rem;
+    }
+}
+
