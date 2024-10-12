@@ -238,3 +238,113 @@ p {
         padding: 0.6rem 1.2rem;
     }
 }
+
+
+@media (max-width: 1170px) {
+    form {
+        display: grid;
+        padding: 16px;
+        border-radius: 20px;
+    }
+    .home {
+        height: 80vh;
+    }
+    #menu-icon {
+        display: block;
+    }
+    header.sticky {
+        background-color: var(--bg-color);
+    }
+    .navlist {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        height: 320px;
+        right: -100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #faf8ed;
+        border-radius: 0px 0px 20px 20px;
+        padding: 10px 0;
+        box-shadow: 0px 20px 20px rgb(15 54 55 / 20%);
+        clip-path: circle(144% at 0% 0%);
+        transition: all 0.5s ease-in-out;
+    }
+    .navlist a {
+        display: block;
+        padding: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .navlist a::after {
+        display: none;
+    }
+    .navlist.open {
+        right: 0;
+    }
+    :root {
+        --h1-font: 4rem;
+        --h2-font: 2.6rem;
+    }
+    .home-img {
+        height: 600px;
+        width: 500px;
+    }
+
+    .cta-plane {
+        width: 500px;
+        right: -200px;
+    }
+    .cta-content {
+        width: 80rem;
+        margin-left: 4rem;
+    }
+    .cta-content h3 {
+        position: absolute;
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        margin-bottom: 35rem;
+        margin-left: 150px;
+        box-shadow: none;
+        white-space: nowrap;
+    }
+    .cta-content p {
+        position: absolute;
+        margin-top: -40rem;
+        margin-left: 0rem;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+}
+
+
+@media (max-width: 1020px) {
+    .home {
+        grid-template-columns: 1fr;
+        height: 115vh;
+        gap: 0;
+    }
+    .home-text {
+        order: 2;
+    }
+    .home-img {
+        margin: 0 auto;
+    }
+    .home-text h1 {
+        width: 100%;
+        max-width: 700px;
+    }
+    :root {
+        --h1-font: 3.2rem;
+        --h2-font: 2.2rem;
+    }
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .about-img {
+        display: none;
+    }
+    .testimonial {
+        grid-template-columns: 1fr;
+    }
+}
