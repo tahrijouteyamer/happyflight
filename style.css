@@ -459,15 +459,6 @@ section {
      z-index: 1000;
  }
 
- .navlist.open {
-     right: 0;
- }
-
- .navlist li {
-     list-style: none;
-     padding: 1rem;
- }
-
  .menu-icon.bx-x {
      position: fixed;
      top: 1rem;
