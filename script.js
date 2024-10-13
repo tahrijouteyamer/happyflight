@@ -60,19 +60,3 @@ function scrollActive() {
         }
     });
 }
-
-const sr = ScrollReveal({
-    origin: "top",
-    distance: "30px",
-    duration: 2000,
-    reset: true
-});
-
-sr.reveal(`.home-content, .home-img,
-            .about-content, .about-img,
-            .services-content, .services-img,
-            .contact-content, .contact-img,
-            .footer-content`, {
-    interval: 200
-});
-
