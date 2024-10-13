@@ -22,6 +22,15 @@ menu.addEventListener("click", () => {
     navlist.classList.toggle("open");
 });
 
+const navLinks = document.querySelectorAll(".navlist li");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("bx-x");
+        navlist.classList.remove("open");
+    });
+}
+);
 
 
 
