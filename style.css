@@ -234,32 +234,6 @@ section {
     cursor: pointer;
     margin-left: 1rem;
     display: none;
-}
-section {
-    padding: 72px 15% 60px;
-}
-
-h1 {
-    font-size: var(--h1-font);
-    font-weight: 700;
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    font-family: 'SUSE', sans-serif;
-}
-
-h2 {
-    font-size: var(--h2-font);
-    font-weight: 700;
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    font-family: 'SUSE', sans-serif;
-}
-
-p {
-    font-size: var(--p-font);
-    color: var(--text-color);
-    margin-bottom: 1rem;
-}
 
 .btn {
     display: inline-block;
@@ -275,6 +249,23 @@ p {
     transform: translateY(-4px);
 }
 
+.bxx-btn:hover {
+    background-color: transparent;
+    border: 1px solid #2d3134;
+    color: #2d3134;
+}
+.box:hover {
+    transform: scale(1.01) translateY(-5px);
+    cursor: pointer;
+}
+.testimonial {
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+}
 
 @media screen and (max-width: 1024px) {
     header {
