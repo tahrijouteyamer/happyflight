@@ -68,5 +68,17 @@ allImages.forEach(image => {
 }
 );
 
+const form = document.getElementById("contact-form");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+const formButton = document.getElementById("submit-button");
+
+form.addEventListener("submit", e => {
+    e.preventDefault();
+    checkInputs();
+}
+);
+
 
 // Rest of the code goes here
