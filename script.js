@@ -61,4 +61,12 @@ function scrollActive() {
     });
 }
 
+const allImages = document.querySelectorAll("img");
+
+allImages.forEach(image => {
+    image.setAttribute("loading", "lazy");
+}
+);
+
+
 // Rest of the code goes here
