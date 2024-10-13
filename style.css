@@ -468,33 +468,6 @@ section {
      padding: 1rem;
  }
 
- .navlist a {
-     color: #fff;
-     text-decoration: none;
-     font-size: 1.5rem;
- }
-
- .navlist a.active {
-     color: #ff6347;
- }
-
- .menu-icon {
-     display: none;
- }
-
- .menu-icon i {
-     font-size: 2rem;
-     color: #fff;
- }
-
- .menu-icon.bx-x i:before {
-     content: "\f2d7";
- }
-
- .menu-icon.bx-x i:after {
-     content: "\f2d7";
- }
-
  .menu-icon.bx-x {
      position: fixed;
      top: 1rem;
