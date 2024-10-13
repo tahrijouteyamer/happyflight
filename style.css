@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url('https:fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url("https:fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 * {
     padding: 0;
@@ -432,3 +432,88 @@ section {
         white-space: nowrap;
     }
 }
+ .no-scroll {
+     overflow: hidden;
+ }
+
+ .sticky {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background: #333;
+     z-index: 1000;
+     transition: 0.5s;
+ }
+
+ .navlist {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     right: -100%;
+     background: #333;
+     transition: 0.5s;
+     z-index: 1000;
+ }
+
+ .navlist.open {
+     right: 0;
+ }
+
+ .navlist li {
+     list-style: none;
+     padding: 1rem;
+ }
+
+ .navlist a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.5rem;
+ }
+
+ .navlist a.active {
+     color: #ff6347;
+ }
+
+ .menu-icon {
+     display: none;
+ }
+
+ .menu-icon i {
+     font-size: 2rem;
+     color: #fff;
+ }
+
+ .menu-icon.bx-x i:before {
+     content: "\f2d7";
+ }
+
+ .menu-icon.bx-x i:after {
+     content: "\f2d7";
+ }
+
+ .menu-icon.bx-x {
+     position: fixed;
+     top: 1rem;
+     right: 1rem;
+     z-index: 1000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     background: #333;
+     border-radius: 50%;
+     cursor: pointer;
+ }
+
+ .menu-icon.bx-x i {
+     color: #fff;
+ }
+
+ .content {
+     display: none;
+ }
