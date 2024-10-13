@@ -49,4 +49,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 `=== ✈`
 
-**HappyFlight** is designed to make it easy for you to find the best travel deals without the hassle of endless searching. Get the top flight offers delivered straight to your inbox and start your adventure!⠀⠀⠀
+**HappyFlight** is designed to make it easy for you to find the best travel deals without the hassle of endless searching. Get the top flight offers delivered straight to your inbox and start your adventure!
