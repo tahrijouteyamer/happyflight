@@ -261,35 +261,6 @@ section {
     gap: 3rem;
 }
 
-@media screen and (max-width: 1024px) {
-    header {
-        padding: 30px 10%;
-    }
-    .navlist {
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: var(--bg-color);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: all ease 0.5s;
-    }
-    .navlist a {
-        margin: 1rem 0;
-    }
-    .h-right {
-        display: block;
-    }
-    #menu-icon {
-        display: block;
-    }
-}
-
-
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 4rem;
