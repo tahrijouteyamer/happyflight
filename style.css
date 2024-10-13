@@ -275,7 +275,6 @@ p {
     transform: translateY(-4px);
 }
 
-/* Responsive */
 
 @media screen and (max-width: 1024px) {
     header {
@@ -305,17 +304,6 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        padding: 30px 5%;
-    }
-    .navlist a {
-        font-size: 1.5rem;
-    }
-    .h-btn {
-        padding: 0.6rem 1.2rem;
-    }
-}
 
 @media screen and (max-width: 480px) {
     h1 {
