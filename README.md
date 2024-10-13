@@ -4,7 +4,7 @@
 
 **HappyFlight** is a simple and easy-to-use platform that helps travelers find the best flight deals and explore exciting destinations. By selecting a destination from our curated list, users receive personalized emails with the top flight offers, making travel planning smooth and hassle-free. Whether you're flying solo or planning for a group (up to 8 people), **HappyFlight** makes it easy to explore your options.
 
-## Features:
+## Features
 - **Effortless Flight Selection**: Choose your next adventure from a curated list of top destinations.
 - **Group Travel**: Select flight deals for yourself or up to 8 people.
 - **Destination Discovery**: Browse and explore a variety of exciting travel destinations.
