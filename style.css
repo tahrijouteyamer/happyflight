@@ -340,38 +340,6 @@ p {
     }
 }
 
-
-@media (max-width: 1020px) {
-    .home {
-        grid-template-columns: 1fr;
-        height: 115vh;
-        gap: 0;
-    }
-    .home-text {
-        order: 2;
-    }
-    .home-img {
-        margin: 0 auto;
-    }
-    .home-text h1 {
-        width: 100%;
-        max-width: 700px;
-    }
-    :root {
-        --h1-font: 3.2rem;
-        --h2-font: 2.2rem;
-    }
-    .about {
-        grid-template-columns: 1fr;
-    }
-    .about-img {
-        display: none;
-    }
-    .testimonial {
-        grid-template-columns: 1fr;
-    }
-}
-
 @media (max-width: 768px) {
     header {
         padding: 30px 5%;
