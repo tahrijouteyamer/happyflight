@@ -60,3 +60,5 @@ function scrollActive() {
         }
     });
 }
+
+// Rest of the code goes here
